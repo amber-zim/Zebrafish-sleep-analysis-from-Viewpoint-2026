@@ -1,0 +1,4 @@
+location,start,end,sttime,middur
+LocA01,0,60,09:00:00,0.12
+LocA02,0,60,09:00:00,0.00
+LocB01,0,60,09:00:00,0.31
