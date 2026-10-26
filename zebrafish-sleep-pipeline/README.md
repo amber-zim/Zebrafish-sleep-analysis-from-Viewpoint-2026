@@ -18,6 +18,8 @@ An end-to-end R pipeline for larval zebrafish sleep/activity experiments recorde
 
 **Lights-off detection (Part 7):** the transition is snapped to the closest 1-min bin so the "Pre" window (default 10 min) doesn't include the lights-off startle.
 
+**SSMD refers to strictly standardized mean difference and is an effect size measure that is more robust than z-score for non-normal data.
+
 ## Requirements
 
 - R ≥ 4.1
@@ -72,7 +74,7 @@ or `Rscript R/zebrafish_sleep_pipeline.R`.
 
 ## Lineage
 
-Consolidates earlier MATLAB scripts (`Viewpoint_to_Matlab.m`, `VT_analysis_2019aedited.m`) and `LightsOFF_ArousalResponse.R`.
+Consolidates earlier MATLAB scripts from PMID: 35284597 (`Viewpoint_to_Matlab.m`/ `VTs_to_DATA_middur.m`, `VT_analysis.m`) to be used in the open-source R platform. Additional analyses including the dark transition arousal response have been added. 
 
 ## Citation
 
