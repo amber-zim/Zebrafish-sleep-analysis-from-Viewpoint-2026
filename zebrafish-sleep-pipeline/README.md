@@ -78,7 +78,7 @@ Consolidates earlier MATLAB scripts from PMID: 35284597 (`Viewpoint_to_Matlab.m`
 
 ## Citation
 
-If you use this pipeline, please cite this repository (add a `CITATION.cff` or Zenodo DOI once released).
+If you use this pipeline, please cite this repository.
 
 ## License
 
