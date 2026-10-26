@@ -56,7 +56,7 @@ genotype_file_name  <- "dpydabCombined_genotypeList.txt"
 ## --- raw-data conversion ----------------------------------------------------
 ## TRUE = skip PARTs 2-3 and read an already-cropped wide file (must live in
 ## analysis_output/, see wide_output_name below) straight into PART 4.
-skip_raw_conversion <- TRUE
+skip_raw_conversion <- FALSE
 
 zt0_clock_hour  <- 9      # real wall-clock hour that corresponds to ZT0 (lights-on)
 crop_hours      <- 48     # length of the window to crop to
